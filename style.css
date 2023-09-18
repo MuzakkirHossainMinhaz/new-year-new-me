@@ -1,0 +1,238 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+
+/* universal */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+}
+
+/* header style */
+header {
+    background-image: url("/images/banner/banner1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    color: #444343;
+}
+
+.header__content {
+    width: 500px;
+    text-align: right;
+    position: absolute;
+    right: 16rem;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 2rem;
+}
+
+/* main style */
+main {
+    width: 85vw;
+    margin: 0 auto;
+    color: #444343;
+}
+
+section {
+    margin: 4rem 0;
+}
+
+#failures {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 8rem 0;
+}
+
+.person {
+    width: 550px;
+}
+
+.section__div {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+/* plans style */
+#plans {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+
+#plans > h2 {
+    text-align: center;
+    padding-top: 4rem;
+}
+
+#allGoals {
+    display: flex;
+    gap: 8rem;
+}
+
+.goal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.goal > p {
+    font-size: 20px;
+}
+
+/* mindset styles */
+#positiveMindset {
+    margin-top: 5rem;
+    background-image: url("./images/gradient2.png"), url("./images/watch.png");
+    background-position: left, right;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 20rem;
+    width: 75vw;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: center;
+    padding: 0 5rem;
+    color: white;
+}
+
+#positiveMindset > h2 {
+    color: white;
+}
+
+#positiveMindset > button {
+    background-color: white;
+    color: #f15b22;
+}
+
+/* footer */
+footer {
+    margin-top: 10rem;
+    background-color: #151414;
+    padding: 150px 0;
+}
+
+footer > div {
+    width: 75vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.footer__left {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    color: white;
+}
+
+.footer__left > h2 {
+    color: white;
+}
+
+.socialIcon {
+    display: flex;
+    gap: 0.75rem;
+}
+
+.footer__right {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+h1 {
+    color: #151414;
+    font-weight: 700;
+    font-size: 65px;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+p {
+    line-height: 26px;
+}
+
+button {
+    background-color: #f15b22;
+    color: white;
+    font-weight: 600;
+    border: 0;
+    border-radius: 5px;
+    width: 160px;
+    height: 64px;
+    font-size: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul > li {
+    margin: 0.75rem 0;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+ul > li > span {
+    color: lime;
+}
+
+input {
+    width: 325px;
+    height: 64px;
+    border-radius: 8px;
+    border: 1px solid #fff;
+    padding: 0 20px;
+    background-color: transparent;
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: white;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: white;
+}
